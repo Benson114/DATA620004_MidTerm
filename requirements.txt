@@ -1,4 +1,0 @@
-pandas
-torchvision
-pillow
-torch
