@@ -60,7 +60,7 @@ def main():
         "momentum": 0.9,
         "weight_decay": 0.001,
     }
-    optimizer_stg2 = optim.SGD(model.resnet18.fc.parameters(), **optim_params_stg2)
+    optimizer_stg2 = optim.SGD(model.parameters(), **optim_params_stg2)
 
     trainer_stg2 = Trainer(model, train_loader, valid_loader, test_loader, criterion, optimizer_stg2, writer)
     trainer_stg2.train(num_epochs, is_stg2=True)
