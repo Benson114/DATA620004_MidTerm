@@ -34,7 +34,7 @@ bash train_yolov3.sh
 如果你需要进一步设置训练参数，你可以修改这两个文件：
 
 1. 在 `./configs/faster_rcnn/faster-rcnn_r50_fpn_1x_coco_lzf.py`内调整Faster R-CNN的模型和优化器参数，在 `.configs/_base_/datasets/voc0712_lzf.py`内调整batch size
-2. 在 `./configs/faster_rcnn/faster-rcnn_r50_fpn_1x_coco_lzf.py`内调整YOLOv3的模型和优化器参数，在 `.configs/_base_/datasets/voc0712_lzf.py`内调整batch size
+2. 在 `./configs/yolo/yolov3_d53_8xb8-ms-416-273e_coco.py`内调整YOLOv3的模型和优化器参数，在 `.configs/_base_/datasets/voc0712_lzf.py`内调整batch size
 
 ### 模型部署
 
