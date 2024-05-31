@@ -51,9 +51,9 @@ bash prediction.sh
 您可以通过下面两个命令分别对Faster R-CNN和YOLOv3进行测评：
 
 ```bash
-# 训练Faster R-CNN
+# 评测Faster R-CNN
 bash test_faster.sh
-# 训练YOLOv3
+# 评测YOLOv3
 bash test_yolov3.sh
 ```
 
