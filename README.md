@@ -28,7 +28,7 @@ pip install -r requirements.txt
 # 训练Faster R-CNN
 bash train_faster.sh
 # 训练YOLOv3
-bash train_yolov3.sh
+bash train_yolo.sh
 ```
 
 如果你需要进一步设置训练参数，你可以修改这两个文件：
