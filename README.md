@@ -52,9 +52,9 @@ bash prediction.sh
 
 ```bash
 # 训练Faster R-CNN
-bash train_faster.sh
+bash test_faster.sh
 # 训练YOLOv3
-bash train_yolov3.sh
+bash test_yolov3.sh
 ```
 
 请您将路径修改为权重的存储路径。
