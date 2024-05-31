@@ -1,0 +1,7 @@
+export CUDA_VISIBLE_DEVICES=0
+python ./demo/image_demo_try.py ./task2_case_study/case1.png ./outputs/faster/faster-rcnn_r50_fpn_1x_coco_lzf.py --weights ./outputs/faster/epoch_12.pth --out-dir ./task2_case_study/output_faster
+python ./demo/image_demo_try.py ./task2_case_study/case2.png ./outputs/faster/faster-rcnn_r50_fpn_1x_coco_lzf.py --weights ./outputs/faster/epoch_12.pth --out-dir ./task2_case_study/output_faster
+python ./demo/image_demo_try.py ./task2_case_study/case3.png ./outputs/faster/faster-rcnn_r50_fpn_1x_coco_lzf.py --weights ./outputs/faster/epoch_12.pth --out-dir ./task2_case_study/output_faster
+python ./demo/image_demo_try.py ./task2_case_study/case1.png ./outputs/yolov3/yolov3_d53_8xb8-ms-416-273e_coco.py --weights ./outputs/yolov3/epoch_36.pth --out-dir ./task2_case_study/output_yolov3
+python ./demo/image_demo_try.py ./task2_case_study/case2.png ./outputs/yolov3/yolov3_d53_8xb8-ms-416-273e_coco.py --weights ./outputs/yolov3/epoch_36.pth --out-dir ./task2_case_study/output_yolov3
+python ./demo/image_demo_try.py ./task2_case_study/case3.png ./outputs/yolov3/yolov3_d53_8xb8-ms-416-273e_coco.py --weights ./outputs/yolov3/epoch_36.pth --out-dir ./task2_case_study/output_yolov3
