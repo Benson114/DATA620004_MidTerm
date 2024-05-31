@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 如果你的数据集与本项目不适配，你可以通过如下路径修改：
 
-/Users/zzz/Desktop/mmdetection/configs/_base_/datasets/voc0712_lzf.py
+`/Users/zzz/Desktop/mmdetection/configs/_base_/datasets/voc0712_lzf.py`
 
 ### 模型训练
 
